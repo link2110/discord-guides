@@ -26,5 +26,6 @@ Steps can be used to guide users step by step through a process. If steps aren't
 - Images should be on their own line
 - Only use steps when necessary, steps shouldn't be used for a non-linear process
 - No titles or subtitles should end in a fullstop
+- Sections or steps may be separated by dividers, but don't put any dividers at the beginning or end of a document
 
 You can find an example document with actual information about how to do something in example.md.
