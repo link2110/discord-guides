@@ -14,7 +14,7 @@
 
 # Kicks and Bans
 Basics on kicking and banning, and the management of them .
-___
+---
 
 ## How to Kick and Ban
 There are two main ways to Ban and Kick members of a server, the first is by right clicking on their name in either the message window or the user list, and selecting the red *"Kick {username}"* or *"Ban {username}"* respectively.
@@ -43,4 +43,4 @@ Bans can be managed from the *"Bans"* tab in Server Settings, here you will find
 
 ![manage](https://my.mixtape.moe/lbnemi.png)
 
-> Take not of the message at the bottom of this window, as bans are not a guaranteed way of keeping people out of a server.
+> Take note of the message at the bottom of this window, as bans are not a guaranteed way of keeping people out of a server.
