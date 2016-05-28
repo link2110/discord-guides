@@ -35,7 +35,7 @@ Bans have an extra option in *"Delete Message History"*, this will delete the me
 > Please note you cannot kick/ban without the appropriate permissions on the server you are on and you can not kick/ban the owner of the server or accounts higher up in the role hierarchy.
 
 
-___
+***
 
 ## How to Manage Bans
 
