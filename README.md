@@ -2,6 +2,9 @@
 These are the guides used on [TheCrossroads.xyz](https://thecrossroads.xyz "The Crossroads") to guide new (or experienced) users through [Discord](https://discordapp.com).
 
 ## Contributing
+All major edits (including guide creation) should be done in a pull request.
+Minor edits can be done directly into the repository, if you have access.
+
 Correct folder structure and metadata structure is very important, as these metadata formats are read internally by a computer.
 
 - Categories go into their own folders with lowercase dash-separated names
