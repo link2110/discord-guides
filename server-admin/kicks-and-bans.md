@@ -13,7 +13,7 @@
 ---END-META---
 
 # Kicks and Bans
-Basics on kicking and banning, and the management of them .
+Basic guide on kicking and bans, and the management of them.
 
 
 ## How to Kick and Ban
