@@ -21,13 +21,13 @@ There are two main ways to Ban and Kick members of a server, the first is by rig
 
 ![Kicking and Banning](https://my.mixtape.moe/ktpfxe.png)
 
-The other method is using the server member list, accessed by clicking the three lines next to the server name (**1**) > *Server Settings*(**2**) > *Members*(**3**), here you will find a list of every member in the server, with handy search and role sort functions, to ease the finding of members in large servers.
+The other method is using the server member list, accessed by clicking the three lines next to the server name (**1**) > *Server Settings* (**2**) > *Members* (**3**), here you will find a list of every member in the server, with handy search and role sort functions, to aid in the finding of members in large servers.
 
 On this page the *"Prune Members"* function can also be found, this can be used to kick or "prune" users who have been inactive for the specified time frame, take note of the amount of people it will prune, and try to refrain from pruning too often, epically with the shorter time frames.
 
 ![Member List](https://my.mixtape.moe/mxmuje.png)
 
-After using either of these methods you will be presented with one of two screens, the right for bans and the left for kicks, to kick you simply press the *"Kick"* prompt,
+After using either of these methods you will be presented with one of two screens, the right for bans and the left for kicks, to kick or ban you simply press the *"Kick"* or *"Ban"* prompt,
 Bans have an extra option in *"Delete Message History"*, this will delete the messages of the user being banned sent in the specified period of time, from 24 hours to 7 days.
 
 ![KickBan](https://my.mixtape.moe/vvyskx.png)
