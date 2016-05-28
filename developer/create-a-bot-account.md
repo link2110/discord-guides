@@ -1,7 +1,7 @@
 ---DOC-META---
 ```json
 {
-  "name": "Applications and Bots",
+  "name": "Create a Bot Account",
   "tags": [
     "bots"
     "developer"
@@ -10,10 +10,9 @@
 ```
 ---END-META---
 
-# Discord Guides - Applications And Bots
+# Create a Bot Account
 Explains the basics behind creating OAuth Applications and Discord Bot accounts.
 
-## Making a Bot Account  
 ###  Step 1: Creating an Application
 In order to create a bot account, an application must exist for it to be bound to.
 To do this, visit https://discordapp.com/developers/applications/me, login and press *"New Application"*, as show below.
@@ -34,5 +33,3 @@ Now that you have an Application, you will probably want to attach a Bot User to
 ![Adding a Bot User](https://my.mixtape.moe/yxoncy.png)
 
 After creating the bot you will be shown its current username, ID and Token, this Token can be used to login to the bot through the various libraries available, a list of compliant libraries can be found at https://discordapp.com/developers/docs/topics/libraries
-
----
