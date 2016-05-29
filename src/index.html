@@ -21,8 +21,8 @@
 <body ng-cloak>
   <div flex layout-fill style="display: flex; flex-flow: column;">
     <md-toolbar style="flex: 0 1 auto;">
-      <div class="md-toolbar-tools">
-        <md-button class="md-icon-button" aria-label="Toggle navigation" ng-click="navigation.toggle()" ng-hide="$mdMedia('gt-md')">
+      <div class="md-toolbar-tools" ng-controller="HeaderCtrl">
+        <md-button class="md-icon-button" aria-label="Toggle navigation" ng-click="navigation.toggle()" ng-hide="gtMd">
           <div class="animated-hamburger" ng-class="{toggled: navigation.opened}">
             <span></span>
             <span></span>

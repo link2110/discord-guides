@@ -111,6 +111,14 @@ window.app
     })
   })
 
+  .controller('HeaderCtrl', function ($scope, $mdMedia) {
+    $scope.gtMd = false
+
+    $scope.$watch(function () { return $mdMedia('gt-md') }, function (gtMd) {
+      $scope.gtMd = gtMd
+    })
+  })
+
   .controller('SidenavCtrl', function ($scope, CATEGORIES) {
     $scope.categories = CATEGORIES
   })
