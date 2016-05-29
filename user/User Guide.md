@@ -40,6 +40,7 @@ The button beside that to hide the online sidebar.
 
 ##Creating invites to a server
 ![Making an Invite Link](http://i.imgur.com/MmDNzUS.png)
+
 To invite somebody to your server, you just hit the create instant invite button. This creates a direct link to that text/voice channel.  You can also customize your invites with expiration time, max uses, a human readable url, and temporary membership (This means that they will be removed from the server when they log off discord, unless they are assigned a role.  These options are found in the "Advanced Settings" button when you create an instant invite. If you don't choose anything the default options are 24 hour expiry with no limit on uses. 
 
 |Expiry Time | Max Uses | Other Options|
@@ -47,4 +48,5 @@ To invite somebody to your server, you just hit the create instant invite button
 |![Expiry Time](http://i.imgur.com/SMVOqYI.png)|![Max Uses](http://i.imgur.com/w3RT3Xf.png)|![Other Options](http://i.imgur.com/wkKsZ9s.png)|
 
 ![Where to add servers in the app](http://i.imgur.com/vEEhhEz.png)
+
 To get your friends to join, simply have them paste the link in a browser to join instantly, or with the app, in the join server dialog. This is found in the bottom left of your server list.  It's the big "+". 
