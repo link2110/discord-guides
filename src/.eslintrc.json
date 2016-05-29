@@ -1,0 +1,16 @@
+{
+  "extends": "standard",
+  "installedESLint": true,
+  "plugins": [
+    "standard"
+  ],
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "globals": {
+    "angular": true,
+    "marked": true
+  }
+}

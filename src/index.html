@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Discord Guides | The Crossroads</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- build:css assets/css/app.css -->
+  <link href="assets/css/angular-material.min.css" rel="stylesheet">
+  <link href="assets/css/app.css" rel="stylesheet">
+  <!-- endbuild -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body ng-cloak>
+  <div flex layout-fill style="display: flex; flex-flow: column;">
+    <md-toolbar style="flex: 0 1 auto;">
+      <div class="md-toolbar-tools">
+        <md-button class="md-icon-button" aria-label="Toggle navigation" ng-click="navigation.toggle()" ng-hide="$mdMedia('gt-md')">
+          <div class="animated-hamburger" ng-class="{toggled: navigation.opened}">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </md-button>
+
+        <h2 ui-sref="index"><span>Discord Guides</span></h2>
+
+        <span flex></span>
+
+        <md-button class="md-icon-button" aria-label="Join our server" href="https://discord.gg/011coFFv8vdkSDNvs">
+          <md-icon>help_outline</md-icon>
+        </md-button>
+      </div>
+    </md-toolbar>
+
+    <md-content style="flex: 1 1 auto; display: flex;">
+      <md-sidenav md-component-id="nav" class="md-sidenav-left md-whiteframe-3dp" md-is-locked-open="$mdMedia('gt-md')" style="flex: 0 1 auto;">
+        <md-content class="content-layout" ng-controller="SidenavCtrl">
+          <md-list ng-repeat="category in categories" ng-show="category.documents.length > 0">
+            <div class="md-no-sticky md-subheader">
+              <div class="md-subheader-inner">
+                <span class="md-subheader-content">
+                  <span class="ng-scope" ng-bind="category.name"></span>
+                </span>
+              </div>
+            </div>
+
+            <md-list-item ng-repeat="document in category.documents" ui-sref="viewDocument({category: category.file, document: document.file})">{[{document.name}]}</md-list-item>
+          </md-list>
+
+          <md-subheader class="md-no-sticky">All documentation on this site, including user contributions, is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>.</md-subheader>
+          <md-subheader class="md-no-sticky">"Discord", "Discord App", and any associated logos are registered trademarks of Hammer & Chisel, inc.</md-subheader>
+        </md-content>
+      </md-sidenav>
+
+      <md-content style="flex: 1 1 auto;" ng-controller="ContentCtrl">
+        <md-card class="page-content" ng-class="{dock: !gtSm}">
+          <md-card-content>
+            <ui-view></ui-view>
+          </md-card-content>
+        </md-card>
+      </md-content>
+    </md-content>
+  </div>
+
+  <!-- build:js assets/js/app.js -->
+  <script src="assets/js/angular.min.js"></script>
+  <script src="assets/js/angular-aria.min.js"></script>
+  <script src="assets/js/angular-animate.min.js"></script>
+  <script src="assets/js/angular-messages.min.js"></script>
+  <script src="assets/js/angular-material.min.js"></script>
+  <script src="assets/js/angular-ui-router.min.js"></script>
+  <script src="assets/js/marked.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <!-- endbuild -->
+
+  <!--
+  <script type="text/javascript">
+    !function(r,o,a,d){r.GoogleAnalyticsObject=a;r[a]||(r[a]=function(){
+    (r[a].q=r[a].q||[]).push(arguments)});r[a].l=+new Date;d=o.createElement('script');
+    var e=o.scripts[0];d.src='//www.google-analytics.com/analytics.js';
+    e.parentNode.insertBefore(d,e)}(window,document,'ga');
+
+    ga('create', 'xxx', 'auto');
+    ga('send', 'pageview');
+  </script>
+  -->
+</body>
+</html>
