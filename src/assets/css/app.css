@@ -13,6 +13,7 @@ md-content:not(.--with-bg) {
 .page-content {
   width: 80%;
   margin: 20px auto;
+  word-wrap: break-word;
 }
 .page-content.dock {
   height: 100%; width: 100%;
