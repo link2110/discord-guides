@@ -1,5 +1,6 @@
 {
   "name": "Developer Guides",
+  "file": "developer",
   "tags": [
     "developer",
     "dev",
@@ -8,5 +9,16 @@
     "bots",
     "bot",
     "api"
+  ],
+
+  "documents": [
+    {
+      "name": "Create a Bot Account",
+      "file": "create-a-bot-account.md",
+      "tags": [
+        "bots",
+        "developer"
+      ]
+    }
   ]
 }

@@ -1,7 +1,10 @@
 {
   "name": "User Guides",
+  "file": "user",
   "tags": [
     "user",
     "basics"
-  ]
+  ],
+
+  "documents": []
 }

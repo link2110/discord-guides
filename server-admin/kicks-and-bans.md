@@ -1,17 +1,3 @@
----DOC-META---
-```json
-{
-  "name": "Kicks and Bans",
-  "tags": [
-    "moderator"
-    "bans",
-    "kicks",
-    "prune"
-  ]
-}
-```
----END-META---
-
 # Kicks and Bans
 Basic guide on kicking and bans, and the management of them.
 
@@ -39,7 +25,7 @@ Bans have an extra option in *"Delete Message History"*, this will delete the me
 
 ## How to Manage Bans
 
-Bans can be managed from the *"Bans"* tab in Server Settings, here you will find a list of banned users, with the option to Unban. 
+Bans can be managed from the *"Bans"* tab in Server Settings, here you will find a list of banned users, with the option to Unban.
 
 ![manage](https://my.mixtape.moe/lbnemi.png)
 

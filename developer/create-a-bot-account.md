@@ -1,15 +1,3 @@
----DOC-META---
-```json
-{
-  "name": "Create a Bot Account",
-  "tags": [
-    "bots"
-    "developer"
-  ]
-}
-```
----END-META---
-
 # Create a Bot Account
 Explains the basics behind creating OAuth Applications and Discord Bot accounts.
 

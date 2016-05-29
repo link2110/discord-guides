@@ -1,4 +1,4 @@
-# How to create a server
+# How to Create a Server
 This guide will walk you through server creation. Let's get right into it, shall we?
 
 ### Step 1: Open the server join/create dialog
