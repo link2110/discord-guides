@@ -46,7 +46,8 @@ To invite somebody to your server, you just hit the create instant invite button
 |Expiry Time | Max Uses | Other Options|
 |:---:|:---:|:---:|
 |![Expiry Time](http://i.imgur.com/SMVOqYI.png)|![Max Uses](http://i.imgur.com/w3RT3Xf.png)|![Other Options](http://i.imgur.com/wkKsZ9s.png)|
-
-![Where to add servers in the app](http://i.imgur.com/vEEhhEz.png)
+|Expiry options range from 30 min to 24 hours | Max uses range from 1 use to 100 uses | Human readable is a 3 word invite code based on http://imgs.xkcd.com/comics/password_strength.png | 
 
 To get your friends to join, simply have them paste the link in a browser to join instantly, or with the app, in the join server dialog. This is found in the bottom left of your server list.  It's the big "+". 
+
+![Where to add servers in the app](http://i.imgur.com/vEEhhEz.png)
