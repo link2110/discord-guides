@@ -13,7 +13,7 @@ To send a new DM, you can search their name in the search bar **(4)** or left cl
 To go back to your Friends List, just click the Friends button **(1)**
 
 |Right click menu | Left click menu |
-|---|---|
+|:---:|:---:|
 |![This is the left click menu](http://i.imgur.com/1RzL3sV.png)|![This is the right click menu](http://i.imgur.com/eanqya2.png)|
 |This is the menu you'll see when you right click a user's name|This is the menu you'll see when you left click a user's name|
 
