@@ -12,11 +12,9 @@ To the left of that **(3)** is your Direct Message (DM) list.
 To send a new DM, you can search their name in the search bar **(4)** or left click/right click their names. 
 To go back to your Friends List, just click the Friends button **(1)**
 
-###Left click menu
-![This is the left click menu](http://i.imgur.com/1RzL3sV.png)
-
-###Right click menu
-![This is the right click menu](http://i.imgur.com/eanqya2.png)
+|###Left click menu | ###Right click menu |
+| ------------------|---------------------|
+|![This is the left click menu](http://i.imgur.com/1RzL3sV.png)|![This is the right click menu](http://i.imgur.com/eanqya2.png)|
 
 ##Main Discord Window
 ![Main Discord Window](http://i.imgur.com/LA4WWSK.png)
