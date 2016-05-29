@@ -1,15 +1,3 @@
----DOC-META---
-```json
-{
-  "name": "Document name",
-  "tags": [
-    "Example tag",
-    "Tags are used for search"
-  ]
-}
-```
----END-META---
-
 # Example document title, should be the same as in the metadata
 This is the opening text for your document, make it engaging so people bother reading it.
 Your document title should be the only H1 on the page, i.e. the only line with a single `#` in front of it in the document.

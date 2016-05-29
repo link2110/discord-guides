@@ -1,7 +1,28 @@
 {
   "name": "Example Category",
+  "file": "example",
   "tags": [
     "Example tag",
     "Tags are used for search"
+  ],
+
+  "documents": [
+    {
+      "name": "Document name",
+      "file": "document.md",
+      "tags": [
+        "Example tag",
+        "Tags are used for search"
+      ]
+    },
+
+    {
+      "name": "How to create a server",
+      "file": "example.md",
+      "tags": [
+        "create server",
+        "server management"
+      ]
+    }
   ]
 }

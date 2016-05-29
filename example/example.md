@@ -1,15 +1,3 @@
----DOC-META---
-```json
-{
-  "name": "How to create a server",
-  "tags": [
-    "create server",
-    "server management"
-  ]
-}
-```
----END-META---
-
 # How to create a server
 This guide will walk you through server creation. Let's get right into it, shall we?
 
